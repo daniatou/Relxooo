@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #EF9165;
+  --secondary-color: #000;
+}
+
+button {
+  @apply bg-primary-color md:px-6 md:py-4 p-2 text-sm rounded-lg md:text-xl font-semibold
+}
+
+html{
+  font-family: "DM Serif Display",serif;
+}
+
+button:hover {
+  transition: all 1s;
+}
